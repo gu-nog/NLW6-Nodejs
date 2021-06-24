@@ -27,3 +27,9 @@ No extends você usa os métodos como se fosse a classe original e no implements
 
 ### Fluxo:
 Server -> controller -> service(faz validações) -> repositório -> banco de dados;
+<br /><br />
+### Quando lançamos um erro:
+Controller -> Service( throw new Error );
+<br /><br />
+### Middlewares:
+São interceptadores que temos dentro duma requisição, que podem tanto inrrompê-la por completo, quanto adicionar alguma informação.
