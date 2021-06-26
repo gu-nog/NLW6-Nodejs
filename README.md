@@ -33,3 +33,11 @@ Controller -> Service( throw new Error );
 <br /><br />
 ### Middlewares:
 São interceptadores que temos dentro duma requisição, que podem tanto inrrompê-la por completo, quanto adicionar alguma informação.
+<br /><br />
+
+## JWT(Json Web Token):
+É um padrão de criação de token que podemos colocar algumas propriedades.
+### É dividido em 3 partes(separadas por "."):
+#### - Header: Algorítimo e tipo do token
+#### - Payload: Os dados
+#### - Verify Signature
