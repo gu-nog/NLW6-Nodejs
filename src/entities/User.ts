@@ -1,4 +1,5 @@
-import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm";
+import { Exclude } from "class-transformer";
+import { Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
 import { v4 as uuid } from "uuid" // Versão 4 do uuid, que irá gerar númeos aleatórios como id
 
 @Entity("users")
@@ -16,6 +17,7 @@ class User{
     @Column()
     admin: boolean;
 
+    @Exclude()
     @Column()
     password: string;
 

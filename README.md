@@ -41,3 +41,8 @@ São interceptadores que temos dentro duma requisição, que podem tanto inrromp
 #### - Header: Algorítimo e tipo do token
 #### - Payload: Os dados
 #### - Verify Signature
+<br /><br />
+### OBS:
+- Para passar o token para o server, usaremos a estratégia do bearer token, no insomnia.
+- Handle e execute não são oficiais, ou seja, não estão na dicumentação.
+- Você pode ter mais de uma rota com o mesmo nome, se elas forem de métodos diferentes, como post e get.
